@@ -227,8 +227,9 @@ input, select, textarea {
 	header {
 		margin: 0 0 3em 0;
 
-		> p {
-			font-size: 1.25em;
+		> p,
+		> li {
+			font-size: 1.25rem;
 			margin: 0;
 		}
 	}
@@ -236,8 +237,9 @@ input, select, textarea {
 	footer {
 		margin: 3em 0 0 0;
 
-		> p {
-			font-size: 1.25em;
+		> p,
+		> li {
+			font-size: 1.25rem;
 		}
 	}
 
