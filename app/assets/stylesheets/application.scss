@@ -12,4 +12,19 @@
  *
  *= require_tree .
  *= require_self
- */
+.
+*/
+
+#nav {
+	background-color: hsla(205, 40%, 75%, 1);
+}
+dl {
+	width: 85%;
+	list-style: none;
+	margin-left: 4rem;
+	text-indent: -3rem;
+}
+dd {
+	padding-left: 1rem;
+	text-indent: 0;
+}
