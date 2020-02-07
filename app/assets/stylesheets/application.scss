@@ -34,7 +34,7 @@
 		z-index: -1;
 	}
 	&.wrapper:after {
-		content: 'Буй на программе «Арго»';
+		content: 'Буй «Арго». Японское море. 2000.';
 		position: absolute;
 		left: 0.5em;
 		bottom: 0.5em;
@@ -56,7 +56,8 @@
 		z-index: 1;
 	}
 	header {
-		color: #000;
+		color: #fff;
+		text-shadow: 0 0 1px #aaa, 0 0 2px #aaa;
 	}
 }
 
