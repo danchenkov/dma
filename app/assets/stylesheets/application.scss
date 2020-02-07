@@ -18,6 +18,48 @@
 #nav {
 	background-color: hsla(205, 40%, 75%, 1);
 }
+
+#top {
+	&.wrapper:before {
+		content: '';
+		display: block;
+		background-image: url('https://i.ibb.co/ThQXh04/agro-buoy-82060001.jpg');
+		background-size: cover;
+		background-position: center 12%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		opacity: 0.75;
+		z-index: -1;
+	}
+	&.wrapper:after {
+		content: 'Буй на программе «Арго»';
+		position: absolute;
+		left: 0.5em;
+		bottom: 0.5em;
+		color: #fff;
+		text-shadow: 0 0 1px #000, 0 0 2px #000;
+	}
+	background-color: #000;
+	position: relative;
+	min-height: 200px;
+	max-height: 800px;
+	z-index: -1;
+	@media (min-width: 768px) {
+		min-height: 600px;
+	}
+	display: flex;
+	align-self: center;
+	align-items: center;
+	.cointainer {
+		z-index: 1;
+	}
+	header {
+		color: #000;
+	}
+}
+
 dl {
 	width: 85%;
 	list-style: none;
