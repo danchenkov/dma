@@ -18,7 +18,12 @@
 #nav {
 	background-color: hsla(205, 15%, 92%, 1);
 }
-
+.nav-item>.nav-link {
+	color: #333;
+	&:hover {
+		color: #000;
+	}
+}
 #top {
 	&.wrapper:before {
 		content: '';
