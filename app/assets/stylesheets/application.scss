@@ -16,7 +16,7 @@
 */
 
 #nav {
-	background-color: hsla(205, 20%, 75%, 1);
+	background-color: hsla(205, 15%, 92%, 1);
 }
 
 #top {
@@ -61,6 +61,10 @@
 	}
 }
 
+#work {
+	padding-top: 2em;
+}
+
 dl {
 	width: 85%;
 	list-style: none;
@@ -70,4 +74,8 @@ dl {
 dd {
 	padding-left: 1rem;
 	text-indent: 0;
+}
+footer {
+	background-color: #eee;
+	padding: 1em 4em;
 }
