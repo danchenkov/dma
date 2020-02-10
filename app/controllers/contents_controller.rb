@@ -1,8 +1,12 @@
 class ContentsController < ApplicationController
 
-  # GET /welcome
-  def index
+	def index
+	end
 
-  end
+	def audio
+	end
+
+	def misc
+	end
 
 end

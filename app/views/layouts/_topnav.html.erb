@@ -1,68 +1,76 @@
 <nav id="nav" class="navbar sticky-top navbar-expand-lg navbar-light">
-	<a class="navbar-brand" href="/"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
+	<div class="container">
+		<a class="navbar-brand" href="/"><i class="fas fa-water"></i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="/bio/" id="navbarBio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">БИОГРАФИЯ</a>
-				<div class="dropdown-menu" aria-labelledby="navbarBio">
-					<a class="dropdown-item" href="/bio/basic">Основное</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/bio/self">Автобиография</a>
-					<a class="dropdown-item" href="/bio/schools">О школах</a>
-					<a class="dropdown-item" href="/bio/dvgu">О ДВГУ</a>
-					<a class="dropdown-item" href="/bio/toi">О ТОИ</a>
-					<a class="dropdown-item" href="/bio/dvnigmi">О ДВНИГМИ</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/bio/pension">Есть ли жизнь на пенсии</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="/relatives/" id="navbarRelatives" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">РОДСТВЕННИКИ</a>
-				<div class="dropdown-menu" aria-labelledby="navbarRelatives">
-					<a class="dropdown-item" href="/relatives/parents">Родители и предки</a>
-					<a class="dropdown-item" href="/relatives/wife">Жена</a>
-					<a class="dropdown-item" href="/relatives/my-son">Мой сын</a>
-					<a class="dropdown-item" href="/relatives/second-wife">Вторая жена</a>
-					<a class="dropdown-item" href="/relatives/second-wife-son">Сын второй жены</a>
-					<a class="dropdown-item" href="/relatives/sister-niece">Сестра и племянницы</a>
-					<a class="dropdown-item" href="/relatives/almost">Почти родственники</a>
-					<a class="dropdown-item" href="/relatives/friends">Друзья</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="/articles/" id="navbarResearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">СТАТЬИ И РУКОПИСИ</a>
-				<div class="dropdown-menu" aria-labelledby="navbarResearch">
-					<a class="dropdown-item" href="/articles/japan-sea">Японское море</a>
-					<a class="dropdown-item" href="/articles/peter-the-great-gulf">Залив Петра Великого</a>
-					<a class="dropdown-item" href="/articles/argo">Арго</a>
-					<a class="dropdown-item" href="/articles/research-vessels">НИС</a>
-					<a class="dropdown-item" href="/articles/biographic">Биографические</a>
-					<a class="dropdown-item" href="/articles/others">Прочие</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="/photos/" id="navbarPhotos" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ФОТОГРАФИИ</a>
-				<div class="dropdown-menu" aria-labelledby="navbarPhotos">
-					<a class="dropdown-item" href="/photos/personal">Личные</a>
-					<a class="dropdown-item" href="/photos/work">Производственные</a>
-					<a class="dropdown-item" href="/photos/travel">Путешествия</a>
-					<a class="dropdown-item" href="/photos/others">Прочее</a>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/audio" tabindex="-1" aria-disabled="true">АУДИО/ВИДЕО</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/misc" tabindex="-1" aria-disabled="true">РАЗНОЕ</a>
-			</li>
-		</ul>
-		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
-			<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button> -->
-		</form>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbarBio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Биография</a>
+					<div class="dropdown-menu" aria-labelledby="navbarBio">
+						<a class="dropdown-item" href="/bio/">Основное</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/bio/self">Автобиография</a>
+						<a class="dropdown-item" href="/bio/schools">О школах</a>
+						<a class="dropdown-item" href="/bio/dvgu">О ДВГУ</a>
+						<a class="dropdown-item" href="/bio/toi">О ТОИ</a>
+						<a class="dropdown-item" href="/bio/dvnigmi">О ДВНИГМИ</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/bio/pension">Есть ли жизнь на пенсии</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbarResearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Статьи и рукописи</a>
+					<div class="dropdown-menu" aria-labelledby="navbarResearch">
+						<a class="dropdown-item" href="/articles/">Основные</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/articles/japan_sea">Японское море</a>
+						<a class="dropdown-item" href="/articles/peter_the_great_gulf">Залив Петра Великого</a>
+						<a class="dropdown-item" href="/articles/argo">Арго</a>
+						<a class="dropdown-item" href="/articles/research_vessels">НИС</a>
+						<a class="dropdown-item" href="/articles/biographic">Биографические</a>
+						<a class="dropdown-item" href="/articles/misc">Прочие</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbarRelatives" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Родственники</a>
+					<div class="dropdown-menu" aria-labelledby="navbarRelatives">
+						<a class="dropdown-item" href="/relatives/">Обзор</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/relatives/parents">Родители и предки</a>
+						<a class="dropdown-item" href="/relatives/wife">Жена</a>
+						<a class="dropdown-item" href="/relatives/son">Мой сын</a>
+						<a class="dropdown-item" href="/relatives/second_wife">Вторая жена</a>
+						<a class="dropdown-item" href="/relatives/second_wife_son">Сын второй жены</a>
+						<a class="dropdown-item" href="/relatives/sister_niece">Сестра и племянницы</a>
+						<a class="dropdown-item" href="/relatives/almost">Почти родственники</a>
+						<a class="dropdown-item" href="/relatives/friends">Друзья</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbarPhotos" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Фотографии</a>
+					<div class="dropdown-menu" aria-labelledby="navbarPhotos">
+						<a class="dropdown-item" href="/photos/">Обзор</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/photos/personal">Личные</a>
+						<a class="dropdown-item" href="/photos/work">На работе</a>
+						<a class="dropdown-item" href="/photos/travel">Из странствий</a>
+						<a class="dropdown-item" href="/photos/misc">Прочее</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/audio" tabindex="-1" aria-disabled="true">Аудио/видео</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/misc" tabindex="-1" aria-disabled="true">Разное</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
+				<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button> -->
+			</form>
+		</div>
 	</div>
 </nav>

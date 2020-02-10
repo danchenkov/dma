@@ -8,5 +8,13 @@ Rails.application.routes.draw do
 
 	root 'contents#index'
 
+	resources :bio, only: [:index, :show]
+	resources :relatives, only: [:index, :show]
+	resources :articles, only: [:index, :show]
+	resources :photos, only: [:index, :show]
+
+	get :audio, to: 'contents#audio'
+	get :misc, to: 'contents#misc'
+
 	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
