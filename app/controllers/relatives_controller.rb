@@ -6,4 +6,4 @@ class RelativesController < ApplicationController
 	def show
 		render template: "relatives/#{params[:id]}"
 	end
-
+end
