@@ -89,6 +89,13 @@ h2 {
 		text-shadow: 0 0 1px #aaa, 0 0 2px #aaa;
 	}
 }
+.bio.index table {
+	td:first-child {
+		text-align: right;
+		padding-right: 1em;
+		font-weight: 700;
+	}
+}
 
 // #work {
 // 	padding-top: 2em;
@@ -104,7 +111,16 @@ dd {
 	padding-left: 1rem;
 	text-indent: 0;
 }
-footer {
+footer.main.index {
 	background-color: #eee;
 	padding: 1em 4em;
+}
+blockquote {
+	font-style: italic;
+}
+
+blockquote footer {
+	margin-left: 6em;
+	display: block;
+	margin-top: -0.5em;
 }
