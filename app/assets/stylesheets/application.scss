@@ -14,13 +14,25 @@
  *= require_self
 .
 */
-
-#cards a {
-	color: inherit;
+#cards {
+	padding: 1.25em 2em;
+	margin-bottom: 4em;
+	a {
+		color: inherit;
+	}
+}
+.card {
+	margin-bottom: 1.4em;
+}
+h2 {
+	border-bottom: 1px solid #ddd;
 }
 
 .navbar-light .navbar-nav .nav-link {
 	color: rgba(0,0,0,.75);
+}
+.navbar-brand img {
+	height: 40px;
 }
 #nav {
 	background-color: hsla(205, 15%, 92%, 1);
@@ -32,6 +44,11 @@
 	}
 }
 #top {
+	header {
+		padding: 2em 0;
+	}
+}
+#topbg {
 	&.wrapper:before {
 		content: '';
 		display: block;
@@ -73,9 +90,9 @@
 	}
 }
 
-#work {
-	padding-top: 2em;
-}
+// #work {
+// 	padding-top: 2em;
+// }
 
 dl {
 	width: 85%;
