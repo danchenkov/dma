@@ -12,9 +12,11 @@ Rails.application.routes.draw do
 	resources :relatives, only: [:index, :show]
 	resources :articles, only: [:index, :show]
 	resources :photos, only: [:index, :show]
+	resources :research, only: [:index, :show]
+	resources :organizations, only: [:index, :show]
+	resources :oceanography, only: [:index, :show]
 
 	get :audio, to: 'contents#audio'
-	get :misc, to: 'contents#misc'
 
 	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
