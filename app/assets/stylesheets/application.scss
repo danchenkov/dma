@@ -16,14 +16,25 @@
 */
 
 // Typography
+h1 {
+	font-size: 2rem;
+}
 h2 {
+	font-size: 1.6rem;
 	font-weight: 700;
 	margin-top: 1.25em;
 	margin-bottom: 0.5em;
 }
-
+h3 {
+	font-size: 1.4rem;
+}
+h4 {
+	font-size: 1.2rem;
+}
+nav+.container {
+	margin-top: 1.25rem;
+}
 .index.container {
-	padding: 1.25em 2em;
 	margin-bottom: 4em;
 	a {
 		color: inherit;
@@ -32,13 +43,22 @@ h2 {
 	.cards>div {
 		margin-bottom: 1.4em;
 	}
+	.section-title a {
+		h2 {
+			color: hsla(5, 60%, 35%, 1);
+		}
+		&:hover h2 {
+			color: hsla(5, 70%, 35%, 1);
+		}
+
+	}
 	a.card {
 		display: block;
 		height: 100%;
 		&:hover {
-			background-color: hsla(30, 50%, 50%, 0.1);
+			background-color: hsla(30, 50%, 35%, 0.1);
 			h3 {
-				color: hsla(15, 70%, 50%, 1);
+				color: hsla(5, 70%, 35%, 1);
 			}
 		}
 	}
@@ -47,8 +67,10 @@ h2 {
 		border-top: 1px solid #eee;
 		padding-top: 2em;
 	}
-	.organizations .card {
-		min-height: 220px;
+	@media (min-width: 768px) {
+		.organizations .card {
+			min-height: 220px;
+		}
 	}
 }
 
@@ -113,7 +135,7 @@ h2 {
 // 		text-shadow: 0 0 1px #aaa, 0 0 2px #aaa;
 // 	}
 // }
-.bio.index table {
+.bio table {
 	td:first-child {
 		text-align: right;
 		padding-right: 1em;

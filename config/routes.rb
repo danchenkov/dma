@@ -8,13 +8,14 @@ Rails.application.routes.draw do
 
 	root 'contents#index'
 
-	resources :bio, only: [:index, :show]
-	resources :relatives, only: [:index, :show]
 	resources :articles, only: [:index, :show]
-	resources :photos, only: [:index, :show]
-	resources :research, only: [:index, :show]
-	resources :organizations, only: [:index, :show]
+	resources :bio, only: [:index, :show]
 	resources :oceanography, only: [:index, :show]
+	resources :organizations, only: [:index, :show]
+	resources :photos, only: [:index, :show]
+	resources :programs, only: [:index, :show]
+	resources :relatives, only: [:index, :show]
+	resources :research, only: [:index, :show]
 
 	get :audio, to: 'contents#audio'
 
