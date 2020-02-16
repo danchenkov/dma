@@ -1,4 +1,4 @@
-# Mikhail Danchenkov
+# Oceanology site for Mikhail Danchenkov
 
 A Rails app, which can easily be deployed to Heroku.
 
