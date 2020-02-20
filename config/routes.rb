@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 	resources :bio, only: [:index, :show]
 	resources :oceanography, only: [:index, :show]
 	resources :organizations, only: [:index, :show]
+	resources :schools, only: [:index, :show]
 	resources :photos, only: [:index, :show]
 	resources :programs, only: [:index, :show]
 	resources :relatives, only: [:index, :show]
