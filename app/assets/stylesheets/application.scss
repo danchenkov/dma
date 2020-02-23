@@ -94,7 +94,7 @@ nav+.container {
 }
 .index.container {
 	header {
-		padding: 2em 0;
+		padding: 1em 0;
 	}
 }
 // #topbg {
@@ -174,7 +174,10 @@ blockquote footer {
 	margin-top: -0.5em;
 }
 
-
 .gsc-control-cse {
 	background-color: #e8ebee!important;
+}
+
+p,li {
+	margin-bottom: 0.5em;
 }
