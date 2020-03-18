@@ -31,6 +31,12 @@ h3 {
 h4 {
 	font-size: 1.2rem;
 }
+blockquote .author {
+	display: block;
+	padding-left: 5em;
+	margin-top: 0.25em;
+	font-style: normal;
+}
 footer.author {
 	display: inline-block;
 }
